@@ -23,3 +23,5 @@ Jika PIN berhasil diubah, sistem menampilkan pesan konfirmasi: "PIN berhasil diu
 2. Saldo Minimal:
 
 <img width="960" alt="image" src="https://github.com/user-attachments/assets/46d2dc0e-35f8-4a1d-b066-87100616b673">
+
+Ketika pengguna memilih opsi 1 (Penarikan), mereka memasukkan jumlah penarikan yang besar, yaitu 20000000 atau Rp20 juta. Program menampilkan pesan error, "Saldo tidak mencukupi. Anda harus menyisakan saldo minimal Rp50.000." Ini menunjukkan bahwa program memiliki aturan bahwa seseorang tidak boleh melanggar saldo minimal (Rp50.000) selama proses penarikan. Transaksi akan dibatalkan jika jumlah penarikan mengurangi saldo di bawah batas minimum ini.
